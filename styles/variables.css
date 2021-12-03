@@ -1,0 +1,15 @@
+.theme-light {
+  --color-primary: #ff4656;
+  --color-secondary: #1f2326;
+  --color-accent: #f8f8f8;
+  --font-color-1: #c4c4c4;
+  --font-color-2: #0f1923;
+}
+
+.theme-dark {
+  --color-primary: #ff4656;
+  --color-secondary: #505155;
+  --color-accent: rgb(39, 39, 39);
+  --font-color-1: #fff;
+  --font-color-2: #656565;
+}
