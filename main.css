@@ -1,0 +1,82 @@
+@import "./styles/font.css";
+@import "./styles/base.css";
+@import "./styles/variables.css";
+@import "./styles/header.css";
+@import "./styles/themeChanger.css";
+
+html {
+  overflow: hidden;
+}
+
+body {
+  cursor: url("./assets/music/volume_off.png"), default;
+}
+
+header {
+  margin-bottom: 0;
+}
+
+.carousel {
+  display: flex;
+  position: absolute;
+}
+
+.cover img {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(0.9);
+  object-fit: cover;
+  display: block;
+}
+
+.cover.hide {
+  animation: hide 2.2s linear;
+}
+
+.cover.show {
+  animation: show 2s linear;
+}
+
+.nav ul {
+  background: transparent;
+  backdrop-filter: blur(2rem);
+}
+
+@-webkit-keyframes hide {
+  0% {
+    filter: brightness(0.9);
+  }
+  100% {
+    filter: brightness(0);
+  }
+}
+
+@keyframes hide {
+  0% {
+    filter: brightness(0.9);
+  }
+  100% {
+    filter: brightness(0);
+  }
+}
+
+@-webkit-keyframes show {
+  0% {
+    filter: brightness(0);
+  }
+  100% {
+    filter: brightness(0.9);
+  }
+}
+
+@keyframes show {
+  0% {
+    filter: brightness(0);
+  }
+  100% {
+    filter: brightness(0.9);
+  }
+}
