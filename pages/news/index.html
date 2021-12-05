@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/main/logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list--item">
+            <a href="../../index.html"
+              ><img
+                src="../../assets/main/logotype.png"
+                alt="logotype"
+                class="valorant__logo"
+            /></a>
+          </li>
+          <li class="nav__list--item">
+            <a href="https://playvalorant.com/en-us/">Game</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="../characters/index.html">Characters</a>
+          </li>
+          <li class="nav__list--item"><a href="./index.html">News</a></li>
+          <li class="nav__list--item">
+            <a href="../weapons/index.html">Weapons</a>
+          </li>
+          <li class="nav__list--item"><a href="../shop/index.html">Shop</a></li>
+          <li class="nav__list--item">
+            <a href="../gallery/index.html">Gallery</a>
+          </li>
+
+          <li class="nav__list--item">
+            <label id="switch" class="switch">
+              <input type="checkbox" id="slider" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile__nav--activator" id="burger__activator">
+        <span class="burger__decor"></span>
+      </div>
+
+      <nav class="mobile__nav" id="mobile__nav">
+        <ul class="mobile__nav__list">
+          <li class="mobile__nav__list--item">
+            <a href="../../index.html"
+              ><img
+                src="../../assets/main/logotype.png"
+                alt="logotype"
+                class="valorant__logo"
+            /></a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="https://playvalorant.com/en-us/">Game</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="../characters/index.html">Characters</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./index.html">News</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="../weapons/index.html">Weapons</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="../shop/index.html">Shop</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="../gallery/index.html">Gallery</a>
+          </li>
+
+          <li class="mobile__nav__list--item">
+            <label id="switch" class="switch">
+              <input type="checkbox" id="slider" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container" id="container">
+      <form class="form">
+        <h2 class="form__title">Add New Posts</h2>
+        <input
+          type="text"
+          class="form__input"
+          id="form__title"
+          placeholder="Title"
+          required
+        />
+        <textarea
+          name="content"
+          class="form__textarea"
+          id="form__content"
+          cols="30"
+          rows="10"
+          placeholder="Content"
+          required
+        ></textarea>
+        <button class="form__submit" id="form__submit">Post</button>
+      </form>
+
+      <div class="news" id="news">
+        <div class="new">
+          <img
+            src="./assets/news_1.jpeg"
+            alt="News Cover Img"
+            class="news__img"
+            id="news__img"
+          />
+          <div>
+            <p class="news__date" id="news__date">30.11.2021</p>
+            <h3 class="news__title" id="news__title">
+              EMEA CHAMPIONS - HOW THEY CAME TO THIS!
+            </h3>
+            <p class="news__content" id="news__content">
+              The best teams of the EMEA region will soon be fighting for the
+              chance to become the first VALORA...
+            </p>
+            <a href="#" class="news__link"
+              >See article
+              <svg viewBox="0 0 25 15">
+                <path
+                  d="M16.2.5L19.9 4m4.6 3.5l-8.3 7"
+                  fill="none"
+                  stroke="#ff4655"
+                ></path>
+                <path
+                  fill="none"
+                  stroke="#ff4655"
+                  stroke-miterlimit="10"
+                  d="M16 7.5H0"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="new">
+          <img
+            src="./assets/news_2.jpeg"
+            alt="News Cover Img"
+            class="news__img"
+            id="news__img"
+          />
+          <div>
+            <p class="news__date" id="news__date">24.11.2021</p>
+            <h3 class="news__title" id="news__title">
+              Last chance to earn rewards on riotxarcane.com
+            </h3>
+            <p class="news__content" id="news__content">
+              The World of RiotX Arcane closes on 11/30. Complete missions to
+              earn in-game items before it’s gone.
+            </p>
+            <a href="#" class="news__link"
+              >See article
+              <svg viewBox="0 0 25 15">
+                <path
+                  d="M16.2.5L19.9 4m4.6 3.5l-8.3 7"
+                  fill="none"
+                  stroke="#ff4655"
+                ></path>
+                <path
+                  fill="none"
+                  stroke="#ff4655"
+                  stroke-miterlimit="10"
+                  d="M16 7.5H0"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="new">
+          <img
+            src="./assets/news_3.jpeg"
+            alt="News Cover Img"
+            class="news__img"
+            id="news__img"
+          />
+          <div>
+            <p class="news__date" id="news__date">24.11.2021</p>
+            <h3 class="news__title" id="news__title">
+              THIS IS THE ART OF GREATNESS | VALORANT CHAMPIONS 2021
+            </h3>
+            <p class="news__content" id="news__content">
+              VALORANT Champions - December 1 - 12. For matches and schedules
+              visit https://valorantesports.com
+            </p>
+            <a href="#" class="news__link"
+              >See article
+              <svg viewBox="0 0 25 15">
+                <path
+                  d="M16.2.5L19.9 4m4.6 3.5l-8.3 7"
+                  fill="none"
+                  stroke="#ff4655"
+                ></path>
+                <path
+                  fill="none"
+                  stroke="#ff4655"
+                  stroke-miterlimit="10"
+                  d="M16 7.5H0"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="../../functions/themeChanger.js" defer></script>
+    <script src="../../functions/burger.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
