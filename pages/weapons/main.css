@@ -1,0 +1,170 @@
+@import "../../styles/font.css";
+@import "../../styles/base.css";
+@import "../../styles/variables.css";
+@import "../../styles/header.css";
+@import "../../styles/themeChanger.css";
+@import "../../styles/background.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700;800&display=swap");
+
+.weapons {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: "Stick No Bills", "Montserrat", sans-serif;
+  padding-bottom: 5rem;
+}
+
+.weapons__heading {
+  color: var(--font-color-2);
+  text-transform: uppercase;
+  font-size: 6rem;
+  text-align: left;
+  max-width: 50rem;
+  margin-bottom: 5rem;
+  font-weight: 800;
+  animation: headingAppearance 1s ease;
+}
+
+.weapons__container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 113rem;
+
+  animation: weaponsAppearance 1s ease;
+}
+
+.weapon {
+  border: 0.1rem solid #bdbcb7;
+  padding: 6rem;
+  position: relative;
+}
+
+.weapon:nth-child(even) {
+  border-left: none;
+}
+
+.weapon__title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+}
+
+.weapon__view {
+  width: 100%;
+  height: 16.1rem;
+  transition: transform 0.3s ease-out;
+  filter: drop-shadow(1.5rem 2.2rem 0 rgba(15, 25, 35, 0.17));
+  margin: 1.5rem 0 2.5rem 0;
+  transform: scale(0.95);
+}
+
+.weapon:hover .weapon__view {
+  transform: scale(1.05) rotateZ(10deg);
+}
+
+.weapon__description {
+  color: var(--font-color-1);
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  max-width: 45rem;
+  position: absolute;
+  bottom: 3rem;
+}
+
+.weapon__error {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--font-color-2);
+}
+
+@keyframes weaponsAppearance {
+  0% {
+    opacity: 0;
+    transform: translateY(100vh);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes headingAppearance {
+  0% {
+    opacity: 0;
+    transform: translateX(-30vw);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .weapons {
+    transform: translateY(12rem);
+  }
+
+  .weapons__heading {
+    text-align: center;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .weapon:nth-child(even) {
+    border: 0.1rem solid #bdbcb7;
+  }
+
+  .weapon:not(:last-child) {
+    border-bottom: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .weapons__heading {
+    font-size: 4rem;
+  }
+
+  .weapon {
+    padding: 3rem;
+  }
+
+  .weapon__view {
+    margin: 0 0 2.5rem 0;
+    height: 14rem;
+  }
+
+  .weapon__view,
+  .weapon:hover .weapon__view {
+    transform: none;
+  }
+
+  .weapon__description {
+    max-width: 35rem;
+  }
+
+  .weapon__title,
+  .weapon__description {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .weapon__view {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .weapon__view {
+    height: 11rem;
+  }
+}
