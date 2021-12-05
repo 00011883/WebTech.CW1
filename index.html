@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valorant</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/main/logo.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="carousel">
+      <picture class="cover">
+        <source type="image/webp" srcset="./assets/main/1.webp" />
+        <source type="image/jpg" srcset="./assets/main/1.jpg" />
+        <img src="./assets/main/1.jpg" alt="Illustration of the Game" />
+      </picture>
+
+      <picture class="cover">
+        <source type="image/webp" srcset="./assets/main/2.webp" />
+        <source type="image/jpg" srcset="./assets/main/2.jpg" />
+        <img src="./assets/main/2.jpg" alt="Illustration of the Game" />
+      </picture>
+
+      <picture class="cover">
+        <source type="image/webp" srcset="./assets/main/3.webp" />
+        <source type="image/png" srcset="./assets/main/3.png" />
+        <img src="./assets/main/3.png" alt="Illustration of the Game" />
+      </picture>
+
+      <picture class="cover">
+        <source type="image/webp" srcset="./assets/main/4.webp" />
+        <source type="image/jpg" srcset="./assets/main/4.jpg" />
+        <img src="./assets/main/4.jpg" alt="Illustration of the Game" />
+      </picture>
+    </div>
+
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list--item">
+            <a href="./index.html"
+              ><img
+                src="./assets/main/logotype.png"
+                alt="logotype"
+                class="valorant__logo"
+            /></a>
+          </li>
+          <li class="nav__list--item">
+            <a href="https://playvalorant.com/en-us/">Game</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./pages/characters/index.html">Characters</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./pages/news/index.html">News</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./pages/weapons/index.html">Weapons</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./pages/shop/index.html">Shop</a>
+          </li>
+          <li class="nav__list--item">
+            <a href="./pages/gallery/index.html">Gallery</a>
+          </li>
+
+          <li class="nav__list--item">
+            <label id="switch" class="switch">
+              <input type="checkbox" id="slider" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile__nav--activator" id="burger__activator">
+        <span class="burger__decor"></span>
+      </div>
+
+      <nav class="mobile__nav" id="mobile__nav">
+        <ul class="mobile__nav__list">
+          <li class="mobile__nav__list--item">
+            <a href="./index.html"
+              ><img
+                src="./assets/main/logotype.png"
+                alt="logotype"
+                class="valorant__logo"
+            /></a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="https://playvalorant.com/en-us/">Game</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./pages/characters/index.html">Characters</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./pages/news/index.html">News</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./pages/weapons/index.html">Weapons</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./pages/shop/index.html">Shop</a>
+          </li>
+          <li class="mobile__nav__list--item">
+            <a href="./pages/gallery/index.html">Gallery</a>
+          </li>
+
+          <li class="mobile__nav__list--item">
+            <label id="switch" class="switch">
+              <input type="checkbox" id="slider" />
+              <span class="slider round"></span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <script src="./functions/themeChanger.js" defer></script>
+    <script src="./functions/burger.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
