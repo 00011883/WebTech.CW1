@@ -1,0 +1,175 @@
+header {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 5rem;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.5s linear;
+
+  color: var(--color-accent);
+  font-size: 2rem;
+  font-weight: 700;
+
+  padding: 2rem 0;
+
+  background: var(--color-secondary);
+  backdrop-filter: none;
+}
+
+.nav ul a {
+  color: var(--color-accent);
+}
+
+.nav ul li {
+  text-transform: uppercase;
+}
+
+.nav ul li:not(:last-child) {
+  margin-right: 10rem;
+}
+
+.valorant__logo {
+  width: 24.9rem;
+  height: 4.2rem;
+}
+
+/* mobile burger */
+.mobile__nav--activator {
+  z-index: 15;
+  position: absolute;
+  display: none;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid var(--color-accent);
+
+  align-items: center;
+  justify-content: center;
+
+  transform: translate(-50%, 50%);
+  top: 0;
+  left: 50%;
+}
+
+.burger__decor {
+  position: relative;
+  display: block;
+  width: 4.5rem;
+  height: 2px;
+  background-color: var(--color-accent);
+  transition: all 0.2s linear;
+}
+
+.burger__decor:after,
+.burger__decor:before {
+  position: absolute;
+  content: "";
+  width: 4.5rem;
+  height: 2px;
+  background-color: var(--color-accent);
+}
+
+.burger__decor::before {
+  transform: translateY(-8px);
+}
+.burger__decor::after {
+  transform: translateY(8px);
+}
+
+.mobile__nav--activator.burger_active .burger__decor::before {
+  transform: translateY(0px) rotate(100deg);
+}
+
+.mobile__nav--activator.burger_active .burger__decor {
+  transform: translateY(0px) rotate(40deg);
+}
+
+.mobile__nav,
+.mobile__nav--activator.burger_active .burger__decor::after {
+  display: none;
+}
+
+.mobile__nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+
+  color: var(--color-accent);
+  font-size: 3rem;
+  font-weight: 700;
+
+  padding: 2rem 0;
+
+  background: transparent;
+  backdrop-filter: blur(2rem);
+}
+
+.mobile__nav ul a {
+  color: var(--color-accent);
+}
+
+.mobile__nav ul li {
+  text-transform: uppercase;
+  animation: burgerAppearance 0.7s linear;
+}
+
+.mobile__nav ul li:not(:last-child) {
+  margin: 0 0 3rem 0;
+}
+
+@keyframes burgerAppearance {
+  0% {
+    transform: translateY(-100rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* mobile navigation */
+
+@media only screen and (max-width: 1800px) {
+  .nav ul {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .valorant__logo {
+    transform: scale(0.8);
+  }
+
+  .nav ul li:not(:last-child) {
+    margin-right: 6rem;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  .nav ul li:not(:last-child) {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .nav {
+    display: none;
+  }
+
+  .mobile__nav--activator {
+    display: flex;
+  }
+
+  .mobile__nav.active_nav {
+    display: block;
+  }
+}
