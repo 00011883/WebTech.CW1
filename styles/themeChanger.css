@@ -1,0 +1,67 @@
+/* Theme Picker */
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.4s;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 4rem;
+  width: 4rem;
+  left: 0px;
+  margin: auto 0;
+  transition: 0.4s;
+  box-shadow: 0 0px 15px #2020203d;
+  background: white url("https://i.ibb.co/FxzBYR9/night.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input:checked + .slider:before {
+  background: white url("https://i.ibb.co/7JfqXxB/sunny.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .switch {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .slider {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .slider:before {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+}
