@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/main/characters_bg.png");
+  background-image: -webkit-image-set(
+    url("../../assets/main/characters_bg.webp") 1x,
+    url("../../assets/main/characters_bg.png") 2x
+  );
+  background-image: image-set(
+    url("../../assets/main/characters_bg.webp") 1x,
+    url("../../assets/main/characters_bg.png") 2x
+  );
+  background-color: var(--color-primary);
+  background-size: cover;
+  background-position: center center;
+  object-fit: cover;
+  transition: all 0.5s linear;
+}
