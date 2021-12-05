@@ -30,26 +30,28 @@ setInterval(() => {
 
 // Adding Audio on background
 window.addEventListener("load", () => {
-  let video = document.createElement("video");
-  video.setAttribute("id", "music");
-  video.setAttribute("loop", "true");
-  video.setAttribute("autoplay", "true");
-  video.setAttribute("preload", "auto");
-  video.setAttribute("hidden", "");
-  video.setAttribute("muted", "");
+  setTimeout(() => {
+    let video = document.createElement("video");
+    video.setAttribute("id", "music");
+    video.setAttribute("loop", "true");
+    video.setAttribute("autoplay", "true");
+    video.setAttribute("preload", "auto");
+    video.setAttribute("hidden", "");
+    video.setAttribute("muted", "");
 
-  video.innerHTML = `
-    <source src="../../assets/music/dieForYou.mp3" type="audio/mp3" />
-    <source src="../../assets/music/dieForYou.m4a" type="audio/m4a" />
+    video.innerHTML = `
+      <source src="../../assets/music/dieForYou.mp3" type="audio/mp3" />
+      <source src="../../assets/music/dieForYou.m4a" type="audio/m4a" />
+  
+      <p>
+        Your browser doesn't support HTML5 audio. Here is a
+        <a href="./assets/music/dieForYou.mp3">link to the audio</a> instead.
+      </p>
+    `;
 
-    <p>
-      Your browser doesn't support HTML5 audio. Here is a
-      <a href="./assets/music/dieForYou.mp3">link to the audio</a> instead.
-    </p>
-  `;
-
-  video.volume = 0.3;
-  body.appendChild(video);
+    video.volume = 0.3;
+    body.appendChild(video);
+  }, 3000);
 });
 
 // Turn on and off music
