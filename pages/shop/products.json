@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "pathToJpg": "./assets/1.jpg",
+    "pathToWebp": "./assets/1.webp",
+    "title": "Music collection of LOL seasons "
+  },
+  {
+    "id": 2,
+    "pathToJpg": "./assets/2.jpg",
+    "pathToWebp": "./assets/2.webp",
+    "title": "Hoodie | League of Legends"
+  },
+  {
+    "id": 3,
+    "pathToJpg": "./assets/3.jpg",
+    "pathToWebp": "./assets/3.webp",
+    "title": "KDA | All Out Music"
+  },
+  {
+    "id": 4,
+    "pathToJpg": "./assets/4.jpg",
+    "pathToWebp": "./assets/4.webp",
+    "title": "Hoodie | Valorant"
+  },
+  {
+    "id": 5,
+    "pathToJpg": "./assets/5.jpg",
+    "pathToWebp": "./assets/5.webp",
+    "title": "Music from LOL | League of Legends"
+  },
+  {
+    "id": 6,
+    "pathToJpg": "./assets/6.jpg",
+    "pathToWebp": "./assets/6.webp",
+    "title": "Music from LOL | League of Legends"
+  },
+  {
+    "id": 7,
+    "pathToJpg": "./assets/7.jpg",
+    "pathToWebp": "./assets/7.webp",
+    "title": "Music from LOL | League of Legends"
+  },
+  {
+    "id": 8,
+    "pathToJpg": "./assets/8.jpg",
+    "pathToWebp": "./assets/8.webp",
+    "title": "Music from LOL | League of Legends"
+  },
+  {
+    "id": 9,
+    "pathToJpg": "./assets/9.jpg",
+    "pathToWebp": "./assets/9.webp",
+    "title": "Music from Season 1 | League of Legends"
+  },
+  {
+    "id": 10,
+    "pathToJpg": "./assets/10.jpg",
+    "pathToWebp": "./assets/10.webp",
+    "title": "Music from League of Runeterra"
+  },
+  {
+    "id": 11,
+    "pathToJpg": "./assets/11.jpg",
+    "pathToWebp": "./assets/11.webp",
+    "title": "Music Baddest | KDA"
+  },
+  {
+    "id": 12,
+    "pathToJpg": "./assets/12.jpg",
+    "pathToWebp": "./assets/12.webp",
+    "title": "League of Legends | Donate Card"
+  },
+  {
+    "id": 13,
+    "pathToJpg": "",
+    "pathToWebp": "./assets/13.webp",
+    "title": "Premium Limited Edition Cap KDA"
+  },
+  {
+    "id": 14,
+    "pathToJpg": "./assets/14.jpg",
+    "pathToWebp": "./assets/14.webp",
+    "title": "Cap KDA"
+  }
+]
