@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "agents": {
+      "astra": "./assets/agents/astra.png",
+      "breach": "./assets/agents/breach.png",
+      "brimstone": "./assets/agents/brimstone.png",
+      "chamber": "./assets/agents/chamber.png",
+      "cypher": "./assets/agents/cypher.png",
+      "jett": "./assets/agents/jett.png",
+      "kayo": "./assets/agents/kayo.png",
+      "killjoy": "./assets/agents/killjoy.png",
+      "omen": "./assets/agents/omen.png",
+      "phoenix": "./assets/agents/phoenix.png",
+      "raze": "./assets/agents/raze.png",
+      "reyna": "./assets/agents/reyna.png",
+      "sage": "./assets/agents/sage.png",
+      "skye": "./assets/agents/skye.png",
+      "sova": "./assets/agents/sova.png",
+      "viper": "./assets/agents/viper.png",
+      "yoru": "./assets/agents/yoru.png"
+    }
+  },
+  {
+    "id": 1,
+    "agents": {
+      "astra": "./assets/agentsWallpapers/astra.png",
+      "breach": "./assets/agentsWallpapers/breach.png",
+      "breachW": "./assets/agentsWallpapers/breachW.jpg",
+      "brimstone": "./assets/agentsWallpapers/brimstone.png",
+      "brimstoneW": "./assets/agentsWallpapers/brimstoneW.jpg",
+      "cypher": "./assets/agentsWallpapers/cypher.png",
+      "cypherW": "./assets/agentsWallpapers/cypherW.jpg",
+      "jett": "./assets/agentsWallpapers/jett.png",
+      "jettW": "./assets/agentsWallpapers/jettW.jpg",
+      "kayo": "./assets/agentsWallpapers/kayo.png",
+      "killjoy": "./assets/agentsWallpapers/killjoy.png",
+      "omen": "./assets/agentsWallpapers/omen.png",
+      "phoenix": "./assets/agentsWallpapers/phoenix.png",
+      "raze": "./assets/agentsWallpapers/raze.png",
+      "reyna": "./assets/agentsWallpapers/reyna.png",
+      "sage": "./assets/agentsWallpapers/sage.png",
+      "skye": "./assets/agentsWallpapers/skye.png",
+      "sova": "./assets/agentsWallpapers/sova.png",
+      "viper": "./assets/agentsWallpapers/viper.png",
+      "yoru": "./assets/agentsWallpapers/yoru.png"
+    }
+  }
+]
