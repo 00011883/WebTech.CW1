@@ -1,0 +1,94 @@
+@import "../../styles/font.css";
+@import "../../styles/base.css";
+@import "../../styles/variables.css";
+@import "../../styles/header.css";
+@import "../../styles/themeChanger.css";
+@import "../../styles/background.css";
+
+.shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+
+  animation: appearance 2.5s ease;
+}
+
+.shop__title {
+  font-weight: 700;
+  font-size: 5rem;
+  color: var(--font-color-2);
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 35.8rem);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px 30px;
+  grid-auto-flow: row;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.shop__item {
+  position: relative;
+  background: var(--color-accent);
+}
+
+.shop__product {
+  width: 30rem;
+  display: block;
+}
+
+.shop__description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.shop__like {
+  width: 4rem;
+  height: 4rem;
+  fill: var(--font-color-1);
+  margin-right: 4rem;
+
+  transition: all 0.5s ease;
+}
+
+.shop__like.active {
+  fill: red;
+}
+
+.shop__count {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 0.2rem;
+  position: absolute;
+  left: 57%;
+  transform: translateX(-50%);
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1079px) {
+  .shop {
+    transform: translateY(12rem);
+  }
+}
