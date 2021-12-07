@@ -44,7 +44,7 @@ formBtn.addEventListener("click", (e) => {
   if (formTitle.value.trim() !== "" && formContent.value.trim() !== "") {
     div.innerHTML = `
     <img
-    src="./assets/news_cover.jpeg"
+    src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfe41d25ac8f537c5/61132f93f57b2f35921c67d0/081621-Price-change-Banner.jpeg"
     alt="News Cover Img"
     class="news__img"
     id="news__img"
