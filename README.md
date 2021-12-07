@@ -11,7 +11,8 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 <details>
   <summary>Note:</summary>
 
->
+<br />
+
 > To convert all assets into webp extension to reduce size of project, I use [Google converter program](https://developers.google.com/speed/webp) and write [script in Python Language](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter) to not manually write in console the same code over again
 >
 > Instructions for Convertion:
