@@ -57,6 +57,7 @@ function insertErrorMessage() {
 
 // setTimeout function is needed to assign elements after they are created,
 // without this, console.log(shopLike); will return NodeList with length of 0 elements
+// In short, it is necessary for the likes function to work
 
 setTimeout(function () {
   const shopLike = document.querySelectorAll(".shop__like");
