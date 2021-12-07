@@ -15,14 +15,13 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 
 <br />
 
-> To convert all assets into webp extension to reduce size of project, I use [Google converter program](https://developers.google.com/speed/webp) and write [script in Python Language](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter) to not manually write in console the same code over again
->
 > Instructions for Launching Project on Local Machine:
 >
-> 0. Dowload Repo
-> 1. Open in a code editor which support Live Server
-> 2. Launch Live Server
+> 0. Dowload Repo.
+> 1. Open in a text editor with Live Server support.
+> 2. Launch Extension.
 >
+> To convert all assets into .webp to reduce size of project, I use [Google program](https://developers.google.com/speed/webp) and write [Script](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter) to prevent manual typing in the terminal.
 > Instructions for Convertion:
 >
 > All steps should be done in the same folder with cwebp.exe and .py location
@@ -34,13 +33,13 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 >
 >    > 3.1.0. (Windows)
 >    >
->    > > 3.1.1. `Win + R` Combination and Type `cmd`
+>    > > 3.1.1. Combination `Win + R` Type `cmd`
 >
 >    > 3.2.0. (Mac)
 >    >
->    > > 3.2.1. `⌘ + Space ` Combination and Type `terminal`
+>    > > 3.2.1. Combination `⌘ + Space ` Type `terminal`
 >
-> 4. Type the following without quotation marks => `py reformatToWebP.py`
+> 4. Type the following => `py reformatToWebP.py`
 > 5. Done
 
 </details>
