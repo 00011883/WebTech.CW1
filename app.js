@@ -41,8 +41,7 @@ window.addEventListener("load", () => {
 
     video.innerHTML = `
       <source src="../../assets/music/dieForYou.mp3" type="audio/mp3" />
-      <source src="../../assets/music/dieForYou.m4a" type="audio/m4a" />
-  
+
       <p>
         Your browser doesn't support HTML5 audio. Here is a
         <a href="./assets/music/dieForYou.mp3">link to the audio</a> instead.
