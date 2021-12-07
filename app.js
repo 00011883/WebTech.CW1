@@ -4,6 +4,9 @@
 const carousel = document.querySelector(".carousel");
 const carouselImgs = document.querySelectorAll(".carousel picture");
 
+// Setting Credetials
+const cred = document.getElementById("credentials");
+
 let idx = 0;
 
 setInterval(() => {
@@ -34,10 +37,10 @@ window.addEventListener("load", () => {
     let video = document.createElement("video");
     video.setAttribute("id", "music");
     video.setAttribute("loop", "true");
-    video.setAttribute("autoplay", "true");
     video.setAttribute("preload", "auto");
     video.setAttribute("hidden", "");
     video.setAttribute("muted", "");
+    video.setAttribute("autoplay", "");
 
     video.innerHTML = `
       <source src="../../assets/music/dieForYou.mp3" type="audio/mp3" />
@@ -51,6 +54,27 @@ window.addEventListener("load", () => {
     video.volume = 0.3;
     body.appendChild(video);
   }, 3000);
+
+  setTimeout(() => {
+    const music = document.getElementById("music");
+    music.play();
+  }, 5000);
+
+  setTimeout(() => {
+    cred.style.animation = "appear 0.7s cubic-bezier(0.18,0.89,0.6,1.3)";
+  }, 1000);
+
+  setTimeout(() => {
+    cred.style.top = "50%";
+  }, 1500);
+
+  setTimeout(() => {
+    cred.style.animation = "hideCred 0.5s linear";
+  }, 10000);
+
+  setTimeout(() => {
+    cred.style.display = "none";
+  }, 10500);
 });
 
 // Turn on and off music
@@ -67,26 +91,4 @@ carousel.addEventListener("click", () => {
       "url('./assets/music/volume_off.png'), url('../../assets/music/volume_off.png'), default";
     click = true;
   }
-});
-
-// Setting Credetials
-
-const cred = document.getElementById("credentials");
-
-window.addEventListener("load", () => {
-  setTimeout(() => {
-    cred.style.animation = "appear 0.7s cubic-bezier(0.18,0.89,0.6,1.3)";
-  }, 1000);
-
-  setTimeout(() => {
-    cred.style.top = "50%";
-  }, 1500);
-
-  setTimeout(() => {
-    cred.style.animation = "hideCred 0.5s linear";
-  }, 10000);
-
-  setTimeout(() => {
-    cred.style.display = "none";
-  }, 10500);
 });
