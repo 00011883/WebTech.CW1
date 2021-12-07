@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="main.css" />
     <link
       rel="shortcut icon"
-      href="../../assets/main/logo.png"
+      href="https://playvalorant.com/static/favicon-32x32.940d18fe.png"
       type="image/x-icon"
     />
   </head>
@@ -90,6 +90,28 @@
         </ul>
       </nav>
     </header>
+
+    <section class="gallery" id="gallery">
+      <h1 class="gallery__title">
+        It's Showtime to Present Juicy Elements of the Game
+      </h1>
+      <div class="gallery__filter">
+        <p class="gallery__filter--item active" id="all">All</p>
+        <p class="gallery__filter--item" id="characters-filter">Characters</p>
+        <p class="gallery__filter--item" id="wallpapers-filter">Wallpapers</p>
+        <p class="gallery__filter--item" id="skins-filter">Weapon Skins</p>
+        <p class="gallery__filter--item" id="maps-filter">Maps</p>
+      </div>
+
+      <div class="gallery__item" id="gallery__item">
+        <div class="gallery__container" id="gallery__container">
+          <div class="container agents__container" id="agents"></div>
+          <div class="container wallpapers__container" id="wallpapers"></div>
+          <div class="container skins__container" id="skins"></div>
+          <div class="container maps__container" id="maps"></div>
+        </div>
+      </div>
+    </section>
 
     <script src="../../functions/themeChanger.js" defer></script>
     <script src="../../functions/burger.js" defer></script>
