@@ -19,9 +19,9 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 >
 > Instructions for Convertion:
 >
-> All steps are going to be done in the folder where .py script and cwebp.exe application are located
+> All steps should be done in the same folder with cwebp.exe and .py location
 >
-> 0. Python should have already been installed, if haven't => download and install from [this official source](https://www.python.org/).
+> 0. Python should have already been installed, if haven't => [Python](https://www.python.org/).
 > 1. [Open folder](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter)
 > 2. Insert content that should be converted (will convert only supported file extensions)
 > 3. Open CMD
@@ -54,7 +54,7 @@ Lastly but not least, regarding [News](https://00011883.netlify.app/pages/news/i
 > Enjoyable community resources from [Valorant Fandom](https://valorant.fandom.com/wiki/VALORANT_Wiki).
 > Special Thanks to [Dmitry Kiiashko (2021)](https://dribbble.com/UnEpicKid) for the design.
 > Weapon Skins Collection was provided by [Bergin L. (2021)](https://www.dexerto.com/valorant/all-valorant-deluxe-edition-skin-bundles-tiers-weapons-prices-1456863/).
-> Gratitude to [Google](https://developers.google.com/speed/webp) for creating the converter from the image (PNG, JPEG, TIFF, WebP or raw Y'CbCr samples).
+> Gratitude to [Google](https://developers.google.com/speed/webp) for creating the converter.
 > Also pleasant to see Image Hosting Websites such as [WallHaven](https://wallhaven.cc/) and [UHD Wallpaper](https://www.uhdpaper.com/).
 
 ## Footnote
