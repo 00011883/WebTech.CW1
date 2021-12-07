@@ -45,6 +45,57 @@ header {
   backdrop-filter: blur(2rem);
 }
 
+.credentials {
+  position: absolute;
+  left: 50%;
+  top: -20%;
+  transform: translate(-50%, -50%);
+
+  opacity: 1;
+  /* animation: appear 0.5s ease; */
+
+  background: var(--color-secondary);
+  border-radius: 1rem;
+  padding: 2.5rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.credentials__title {
+  color: var(--color-primary);
+  font-size: 3rem;
+  text-align: center;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    top: -20%;
+  }
+
+  85% {
+    opacity: 1;
+    top: 65%;
+  }
+
+  100% {
+    top: 50%;
+  }
+}
+
+@keyframes hideCred {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 @-webkit-keyframes hide {
   0% {
     filter: brightness(0.9);
