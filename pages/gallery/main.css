@@ -96,17 +96,42 @@
   width: 40rem;
 }
 
+.gallery__agent,
+.gallery__skin {
+  position: relative;
+}
+
+.gallery__agent::before,
+.gallery__skin::before {
+  position: absolute;
+  content: attr(data-before);
+  font-size: 2.5rem;
+  padding: 0.2rem;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  text-transform: uppercase;
+}
+
+.gallery__agent::before {
+  top: 0;
+  left: 0;
+}
+
+.gallery__skin::before {
+  top: 1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+}
+
 .gallery__img--wallpaper {
   width: 60rem;
 }
 
 .gallery__img--skin {
+  margin-top: 3rem;
   width: 52rem;
   height: 29rem;
-}
-
-.gallery__img--skin:hover {
-  transform: scale(1.5);
 }
 
 .gallery__img--map {
@@ -122,18 +147,111 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .wallpapers__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .skins__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .maps__container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1079px) {
+  .gallery {
+    transform: translateY(11rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery__img--agent {
+    width: 33.5rem;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .gallery__img--map {
+    width: 65rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .gallery__filter {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 2rem 5rem 2rem;
+    padding: 0 3rem;
+    width: 100%;
+  }
+
+  .gallery__filter--item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .gallery__title {
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .gallery__img--map,
+  .gallery__img--wallpaper {
+    width: 55rem;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .gallery__title {
+    padding: 0 2rem;
+  }
+
+  .gallery__img--wallpaper,
+  .gallery__img--skin {
+    width: 45rem;
+  }
+
+  .gallery__img--map {
+    width: 51rem;
+  }
+
+  .gallery__img--skin {
+    height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .gallery__img--map,
+  .gallery__img--wallpaper {
+    width: 40rem;
+  }
+
+  .gallery__img--skin {
+    width: 34rem;
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .gallery__img--agent {
+    width: 27.5rem;
+  }
+
+  .gallery__img--map,
+  .gallery__img--wallpaper {
+    width: 34rem;
+  }
+
+  .gallery__img--skin {
+    width: 28rem;
+    height: 16rem;
+  }
 }
