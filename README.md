@@ -6,7 +6,22 @@
 ## Project Itself
 
 This Website represents a Video Game called [Valorant](https://playvalorant.com/) to show its glory and coolness.
-Please open the following link [00011883](https://00011883.netlify.app/index.html)
+Please open the following link [00011883](https://00011883.netlify.app/index.html).
+
+> Note: To convert all assets into webp extension to reduce size of project, I use [Google converter program](https://developers.google.com/speed/webp) and write [script in Python Language](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter) to not manually write in console the same code over again
+>
+> Instructions for Convertion:
+>
+> All steps are going to be done in the folder where .py script and cwebp.exe application are located
+>
+> ```
+> 0. Skip this step if python have already been installed, if not download and install from [here](https://www.python.org/).
+> 1. [Open folder](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter)
+> 2. Insert content that should be converted (will convert only supported file extensions)
+> 3. Open CMD
+> 4. Type the following without quotation marks => "py reformatToWebP.py"
+> 5. Done
+> ```
 
 ## Project's Future Developments and Visions
 
@@ -23,6 +38,7 @@ Lastly but not least, regarding [News](https://00011883.netlify.app/pages/news/i
 > Enjoyable community resources from [Valorant Fandom](https://valorant.fandom.com/wiki/VALORANT_Wiki).
 > Special Thanks to [Dmitry Kiiashko (2021)](https://dribbble.com/UnEpicKid) for the design.
 > Weapon Skins Collection was provided by [Bergin L. (2021)](https://www.dexerto.com/valorant/all-valorant-deluxe-edition-skin-bundles-tiers-weapons-prices-1456863/).
+> Gratitude to [Google](https://developers.google.com/speed/webp) for creating the converter from the image (PNG, JPEG, TIFF, WebP or raw Y'CbCr samples).
 > Also pleasant to see Image Hosting Websites such as [WallHaven](https://wallhaven.cc/) and [UHD Wallpaper](https://www.uhdpaper.com/).
 
 ## Footnote
