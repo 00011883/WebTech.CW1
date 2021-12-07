@@ -28,7 +28,7 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 >    >
 >    > > 3.1.1. `Win + R` Combination and Type `cmd`
 >
->    > 3.2.0. (iMac)
+>    > 3.2.0. (Mac)
 >    >
 >    > > 3.2.1. `⌘ + Space ` Combination and Type `terminal`
 >
