@@ -4,3 +4,136 @@
 @import "../../styles/header.css";
 @import "../../styles/themeChanger.css";
 @import "../../styles/background.css";
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+
+.gallery__title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gallery__filter {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.gallery__filter--item {
+  display: inline-block;
+  position: relative;
+
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--font-color-1);
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  transform-origin: left;
+
+  padding: 1rem;
+}
+
+.gallery__filter--item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--font-color-1);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.gallery__filter--item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.gallery__filter--item.active {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--font-color-1);
+}
+
+.gallery__filter--item.active:after {
+  display: none;
+}
+
+.gallery__filter--item:not(:last-child) {
+  margin-right: 4rem;
+}
+
+.gallery__item {
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.gallery__img {
+  display: block;
+  object-fit: contain;
+  background-size: cover;
+  padding: 3rem;
+  border: 1px solid var(--color-secondary);
+  transition: transform 0.6s ease-in-out;
+}
+
+.gallery__img:hover {
+  transform: scale(1.2);
+}
+
+.gallery__img--agent {
+  width: 40rem;
+}
+
+.gallery__img--wallpaper {
+  width: 60rem;
+}
+
+.gallery__img--skin {
+  width: 52rem;
+  height: 29rem;
+}
+
+.gallery__img--skin:hover {
+  transform: scale(1.5);
+}
+
+.gallery__img--map {
+  width: 80rem;
+}
+
+.container:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
+.agents__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wallpapers__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skins__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.maps__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
