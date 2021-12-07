@@ -2,109 +2,109 @@
   {
     "id": "1",
     "title": "Classic",
-    "imgPath": "classic.png",
+    "imgPath": "classic.webp",
     "description": "Lightweight and versatile. The default weapon for all is an instant classic."
   },
   {
     "id": "2",
     "title": "Shorty",
-    "imgPath": "shorty.png",
+    "imgPath": "shorty.webp",
     "description": "Surprise your enemy up close for max effectiveness."
   },
   {
     "id": "3",
     "title": "Frenzy",
-    "imgPath": "frenzy.png",
+    "imgPath": "frenzy.webp",
     "description": "Up close, hold the trigger. From afar...try something else."
   },
   {
     "id": "4",
     "title": "Ghost",
-    "imgPath": "ghost.png",
+    "imgPath": "ghost.webp",
     "description": "Sleek, silenced, and proficient at any range."
   },
   {
     "id": "5",
     "title": "Sheriff",
-    "imgPath": "sheriff.png",
+    "imgPath": "sheriff.webp",
     "description": "A modern six-shooter for the headshot searcher."
   },
   {
     "id": "6",
     "title": "Stinger",
-    "imgPath": "stinger.png",
+    "imgPath": "stinger.webp",
     "description": "They'll know it's over when the Stinger splash hits."
   },
   {
     "id": "7",
     "title": "Spectre",
-    "imgPath": "spectre.png",
+    "imgPath": "spectre.webp",
     "description": "When in doubt, the Spectre is your number one."
   },
   {
     "id": "8",
     "title": "Bucky",
-    "imgPath": "bucky.png",
+    "imgPath": "bucky.webp",
     "description": "Attacker. Defender. You're the one with the pump-action shotgun."
   },
   {
     "id": "9",
     "title": "Judge",
-    "imgPath": "judge.png",
+    "imgPath": "judge.webp",
     "description": "Automatic, rapid fire shotgun that provides sustained high damage."
   },
   {
     "id": "10",
     "title": "Bulldog",
-    "imgPath": "bulldog.png",
+    "imgPath": "bulldog.webp",
     "description": "Some kind of happiness is measured out in taking down enemies with the Bulldog."
   },
   {
     "id": "11",
     "title": "Guardian",
-    "imgPath": "guardian.png",
+    "imgPath": "guardian.webp",
     "description": "Shines in the hands of a patient shooter."
   },
   {
     "id": "12",
     "title": "Phantom",
-    "imgPath": "phantom.png",
+    "imgPath": "phantom.webp",
     "description": "A balanced weapon built for stable, extended shots."
   },
   {
     "id": "13",
     "title": "Vandal",
-    "imgPath": "vandal.png",
+    "imgPath": "vandal.webp",
     "description": "This accurate powerhouse is frecious in small bursts."
   },
   {
     "id": "14",
     "title": "Marshal",
-    "imgPath": "marshal.png",
+    "imgPath": "marshal.webp",
     "description": "Hold an angle, breathe, and they'll regret turning that corner."
   },
   {
     "id": "15",
     "title": "Operator",
-    "imgPath": "operator.png",
+    "imgPath": "operator.webp",
     "description": "Get cozy and you can control important ground."
   },
   {
     "id": "16",
     "title": "Ares",
-    "imgPath": "ares.png",
+    "imgPath": "ares.webp",
     "description": "Don't mistake it's size for clunk."
   },
   {
     "id": "17",
     "title": "Odin",
-    "imgPath": "odin.png",
+    "imgPath": "odin.webp",
     "description": "Wielding this hammer of a machine threatens glory for the holder and ruin for the foe."
   },
   {
     "id": "18",
     "title": "Tactical knife",
-    "imgPath": "knife.png",
+    "imgPath": "knife.webp",
     "description": "An intimate solution."
   }
 ]
