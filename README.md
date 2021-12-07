@@ -27,5 +27,5 @@ Lastly but not least, regarding [News](https://00011883.netlify.app/pages/news/i
 
 ## Footnote
 
-<p align="center">“This website was created to fulfill Web Technology module’s requirements and does not
+<p align="center">“This website was created to fulfill Web Technology module’s requirements <br /> and does not
 represent an actual company or service”.</p>
