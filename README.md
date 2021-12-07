@@ -23,15 +23,16 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 > 1. [Open folder](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter)
 > 2. Insert content that should be converted (will convert only supported file extensions)
 > 3. Open CMD
+>
 >    > 3.1.0. (Windows)
 >    >
 >    > > 3.1.1. `Win + R` Combination
 >    > > 3.1.2. Type `cmd`
 >
-> > 3.2.0. (iMac)
-> >
-> > > 3.2.1. `⌘ + Space ` Combination
-> > > 3.2.1. Type `terminal`
+>    > 3.2.0. (iMac)
+>    >
+>    > > 3.2.1. `⌘ + Space ` Combination
+>    > > 3.2.1. Type `terminal`
 >
 > 4. Type the following without quotation marks => `py reformatToWebP.py`
 > 5. Done
