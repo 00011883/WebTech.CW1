@@ -45,13 +45,16 @@ function insertCharacters() {
 
         agents.forEach((agent) => {
           let img = document.createElement("img");
-          img.classList.add("gallery__img");
+          let picture = document.createElement("picture");
+          picture.classList.add("gallery__img");
+          picture.classList.add("gallery__agent");
+          picture.setAttribute("data-before", agent[0]);
           img.classList.add("gallery__img--agent");
           img.src = agent[1];
           img.alt = agent[0];
           img.title = agent[0];
-
-          agentContainer.appendChild(img);
+          picture.appendChild(img);
+          agentContainer.appendChild(picture);
         });
 
         galleryContainer.appendChild(agentContainer);
@@ -99,20 +102,40 @@ function insertSkins() {
         return res.json();
       })
       .then((data) => {
+        // agents.forEach((agent) => {
+        //   let img = document.createElement("img");
+        //   let picture = document.createElement("picture");
+        //   picture.classList.add("gallery__img");
+        //   picture.classList.add("gallery__agent");
+        //   picture.setAttribute("data-before", agent[0]);
+        //   img.classList.add("gallery__img--agent");
+        //   img.src = agent[1];
+        //   img.alt = agent[0];
+        //   img.title = agent[0];
+        //   picture.appendChild(img);
+        //   agentContainer.appendChild(picture);
+        // });
+
+        // galleryContainer.appendChild(agentContainer);
+
         skinContainer.innerHTML = "";
 
-        const skins = Object.values(data[2]);
+        const skins = Object.entries(data[2]);
         skins.shift();
 
         skins.forEach((skin) => {
           let img = document.createElement("img");
-          img.classList.add("gallery__img");
+          let picture = document.createElement("picture");
+          picture.classList.add("gallery__img");
+          picture.classList.add("gallery__skin");
+          picture.setAttribute("data-before", skin[0]);
           img.classList.add("gallery__img--skin");
 
-          img.src = skin;
-          img.alt = "Weapon Skin Collection From Valorant";
-
-          skinContainer.appendChild(img);
+          img.src = skin[1];
+          img.alt = skin[0];
+          img.title = skin[0];
+          picture.appendChild(img);
+          skinContainer.appendChild(picture);
         });
         galleryContainer.appendChild(skinContainer);
       });
