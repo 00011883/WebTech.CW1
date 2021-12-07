@@ -14,14 +14,12 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 >
 > All steps are going to be done in the folder where .py script and cwebp.exe application are located
 >
-> ```
-0. Python should have already been installed, if not download and install from [here](https://www.python.org/).
+> 0. Python should have already been installed, if haven't => download and install from [this official source](https://www.python.org/).
 > 1. [Open folder](https://github.com/00011883/WebTech.CW1/tree/main/functions/converter)
 > 2. Insert content that should be converted (will convert only supported file extensions)
 > 3. Open CMD
-> 4. Type the following without quotation marks => "py reformatToWebP.py"
+> 4. Type the following without quotation marks => `py reformatToWebP.py`
 > 5. Done
-> ```
 
 ## Project's Future Developments and Visions
 
