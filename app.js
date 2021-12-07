@@ -25,7 +25,6 @@ setInterval(() => {
   }
 
   setTimeout(() => {
-    console.log(carouselImgs[idx]);
     carouselImgs[idx].classList.add("show");
     carouselImgs[idx].style.display = "inline-block";
   }, 500);
