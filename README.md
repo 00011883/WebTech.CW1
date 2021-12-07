@@ -26,13 +26,11 @@ Please open the following link [00011883](https://00011883.netlify.app/index.htm
 >
 >    > 3.1.0. (Windows)
 >    >
->    > > 3.1.1. `Win + R` Combination
->    > > 3.1.2. Type `cmd`
+>    > > 3.1.1. `Win + R` Combination and Type `cmd`
 >
 >    > 3.2.0. (iMac)
 >    >
->    > > 3.2.1. `⌘ + Space ` Combination
->    > > 3.2.1. Type `terminal`
+>    > > 3.2.1. `⌘ + Space ` Combination and Type `terminal`
 >
 > 4. Type the following without quotation marks => `py reformatToWebP.py`
 > 5. Done
