@@ -6,6 +6,8 @@
 ## Project Itself
 
 This Website represents a Video Game called [Valorant](https://playvalorant.com/) to show its glory and coolness. <br />
+When you will open hosted site, please just click once on the website anywhere except navigation items within 3 seconds. <br />
+This action needed to activate nice feature. Hope you will enjoy <br />
 Please open the following link [00011883](https://00011883.netlify.app/index.html).
 
 <details>
