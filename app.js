@@ -68,3 +68,25 @@ carousel.addEventListener("click", () => {
     click = true;
   }
 });
+
+// Setting Credetials
+
+const cred = document.getElementById("credentials");
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    cred.style.animation = "appear 0.7s cubic-bezier(0.18,0.89,0.6,1.3)";
+  }, 1000);
+
+  setTimeout(() => {
+    cred.style.top = "50%";
+  }, 1500);
+
+  setTimeout(() => {
+    cred.style.animation = "hideCred 0.5s linear";
+  }, 10000);
+
+  setTimeout(() => {
+    cred.style.display = "none";
+  }, 10500);
+});
