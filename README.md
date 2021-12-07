@@ -24,3 +24,8 @@ Lastly but not least, regarding [News](https://00011883.netlify.app/pages/news/i
 > Special Thanks to [Dmitry Kiiashko (2021)](https://dribbble.com/UnEpicKid) for the design.
 > Weapon Skins Collection was provided by [Bergin L. (2021)](https://www.dexerto.com/valorant/all-valorant-deluxe-edition-skin-bundles-tiers-weapons-prices-1456863/).
 > Also pleasant to see Image Hosting Websites such as [WallHaven](https://wallhaven.cc/) and [UHD Wallpaper](https://www.uhdpaper.com/).
+
+## Footnote
+
+“This website was created to fulfill Web Technology module’s requirements and does not
+represent an actual company or service”.
