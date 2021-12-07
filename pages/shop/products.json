@@ -1,85 +1,85 @@
 [
   {
     "id": 1,
-    "pathToJpg": "./assets/1.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/7732630/media/7b914ad30897e9cf567d5850047d3c7b.jpg",
     "pathToWebp": "./assets/1.webp",
     "title": "Music collection of LOL seasons "
   },
   {
     "id": 2,
-    "pathToJpg": "./assets/2.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/6449884/2019_lolcapsule01.jpg",
     "pathToWebp": "./assets/2.webp",
     "title": "Hoodie | League of Legends"
   },
   {
     "id": 3,
-    "pathToJpg": "./assets/3.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/15123295/media/526080d54046f5467bb3a1c4646dea2d.jpg",
     "pathToWebp": "./assets/3.webp",
     "title": "KDA | All Out Music"
   },
   {
     "id": 4,
-    "pathToJpg": "./assets/4.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/7093591/media/d17ed25a311efcbce460bbda43a00716.jpg",
     "pathToWebp": "./assets/4.webp",
     "title": "Hoodie | Valorant"
   },
   {
     "id": 5,
-    "pathToJpg": "./assets/5.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/7568791/media/0f6a8352ae70a61e3a798afc4de2fe02.jpg",
     "pathToWebp": "./assets/5.webp",
     "title": "Music from LOL | League of Legends"
   },
   {
     "id": 6,
-    "pathToJpg": "./assets/6.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/7569064/media/e79ef21cae7e81fc817173470298ee1d.jpg",
     "pathToWebp": "./assets/6.webp",
     "title": "Music from LOL | League of Legends"
   },
   {
     "id": 7,
-    "pathToJpg": "./assets/7.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/7568982/media/7dd4e7b81349b70a8643fbbab3ee366a.jpg",
     "pathToWebp": "./assets/7.webp",
     "title": "Music from LOL | League of Legends"
   },
   {
     "id": 8,
-    "pathToJpg": "./assets/8.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/7732236/media/6bcdf8879faecbd514688d5e3ef72484.jpg",
     "pathToWebp": "./assets/8.webp",
     "title": "Music from LOL | League of Legends"
   },
   {
     "id": 9,
-    "pathToJpg": "./assets/9.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/7732630/media/570159f1814778ea26c6d0c05897b669.jpg",
     "pathToWebp": "./assets/9.webp",
     "title": "Music from Season 1 | League of Legends"
   },
   {
     "id": 10,
-    "pathToJpg": "./assets/10.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/11955240/media/c98701dde9b90536dce94a423cc8bca4.jpg",
     "pathToWebp": "./assets/10.webp",
-    "title": "Music from League of Runeterra"
+    "title": "Breathe | Music from League of Runeterra"
   },
   {
     "id": 11,
-    "pathToJpg": "./assets/11.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/15123346/media/f4c16c1f4c95a394abb26f3fb7334f94.jpg",
     "pathToWebp": "./assets/11.webp",
     "title": "Music Baddest | KDA"
   },
   {
     "id": 12,
-    "pathToJpg": "./assets/12.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/1785966/screenshots/15175216/media/22a1448ad187a47d41131cf25eef520f.jpg",
     "pathToWebp": "./assets/12.webp",
-    "title": "League of Legends | Donate Card"
+    "title": "League of Legends | RP Update Card"
   },
   {
     "id": 13,
-    "pathToJpg": "",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/6473998/kda_snap_prestige.jpg",
     "pathToWebp": "./assets/13.webp",
     "title": "Premium Limited Edition Cap KDA"
   },
   {
     "id": 14,
-    "pathToJpg": "./assets/14.jpg",
+    "pathToJpg": "https://cdn.dribbble.com/users/536156/screenshots/6473931/kda_snap1.jpg",
     "pathToWebp": "./assets/14.webp",
     "title": "Cap KDA"
   }
