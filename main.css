@@ -61,7 +61,7 @@ header {
 .credentials {
   position: absolute;
   left: 50%;
-  top: -20%;
+  top: -50%;
 
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -104,7 +104,7 @@ header {
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
-    top: -20%;
+    top: -50%;
   }
 
   85% {
@@ -120,7 +120,7 @@ header {
 @keyframes appear {
   0% {
     opacity: 0;
-    top: -20%;
+    top: -50%;
   }
 
   85% {
