@@ -5,20 +5,34 @@ header {
 }
 
 .nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
   transition: all 0.5s linear;
 
   color: var(--color-accent);
   font-size: 2rem;
   font-weight: 700;
 
-  padding: 2rem 0;
-
   background: var(--color-secondary);
+  -webkit-backdrop-filter: none;
   backdrop-filter: none;
+
+  padding: 2rem 0;
 }
 
 .nav ul a {
@@ -42,19 +56,32 @@ header {
 .mobile__nav--activator {
   z-index: 15;
   position: absolute;
-  display: none;
-  width: 8rem;
-  height: 8rem;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 1px solid var(--color-accent);
-
-  align-items: center;
-  justify-content: center;
-
-  transform: translate(-50%, 50%);
   top: 0;
   left: 50%;
+
+  display: none;
+
+  width: 8rem;
+  height: 8rem;
+
+  background-color: transparent;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid var(--color-accent);
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
 }
 
 .burger__decor {
@@ -63,6 +90,9 @@ header {
   width: 4.5rem;
   height: 2px;
   background-color: var(--color-accent);
+
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -76,17 +106,26 @@ header {
 }
 
 .burger__decor::before {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+
 .burger__decor::after {
+  -webkit-transform: translateY(8px);
+  -ms-transform: translateY(8px);
   transform: translateY(8px);
 }
 
 .mobile__nav--activator.burger_active .burger__decor::before {
+  -webkit-transform: translateY(0px) rotate(100deg);
+  -ms-transform: translateY(0px) rotate(100deg);
   transform: translateY(0px) rotate(100deg);
 }
 
 .mobile__nav--activator.burger_active .burger__decor {
+  -webkit-transform: translateY(0px) rotate(40deg);
+  -ms-transform: translateY(0px) rotate(40deg);
   transform: translateY(0px) rotate(40deg);
 }
 
@@ -96,9 +135,25 @@ header {
 }
 
 .mobile__nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
 
   height: 100vh;
@@ -110,6 +165,7 @@ header {
   padding: 2rem 0;
 
   background: transparent;
+  -webkit-backdrop-filter: blur(2rem);
   backdrop-filter: blur(2rem);
 }
 
@@ -119,6 +175,7 @@ header {
 
 .mobile__nav ul li {
   text-transform: uppercase;
+  -webkit-animation: burgerAppearance 0.7s linear;
   animation: burgerAppearance 0.7s linear;
 }
 
@@ -126,18 +183,29 @@ header {
   margin: 0 0 3rem 0;
 }
 
-@keyframes burgerAppearance {
+@-webkit-keyframes burgerAppearance {
   0% {
+    -webkit-transform: translateY(-100rem);
     transform: translateY(-100rem);
   }
-
   100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes burgerAppearance {
+  0% {
+    -webkit-transform: translateY(-100rem);
+    transform: translateY(-100rem);
+  }
+  100% {
+    -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
 
 /* mobile navigation */
-
 @media only screen and (max-width: 1800px) {
   .nav ul {
     font-size: 1.5rem;
@@ -146,9 +214,10 @@ header {
 
 @media only screen and (max-width: 1440px) {
   .valorant__logo {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
     transform: scale(0.8);
   }
-
   .nav ul li:not(:last-child) {
     margin-right: 6rem;
   }
@@ -164,11 +233,12 @@ header {
   .nav {
     display: none;
   }
-
   .mobile__nav--activator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
-
   .mobile__nav.active_nav {
     display: block;
   }

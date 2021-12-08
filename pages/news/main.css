@@ -6,17 +6,43 @@
 @import "../../styles/background.css";
 
 .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+
   margin: 0 auto;
-  justify-content: space-evenly;
   padding-bottom: 4rem;
+
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
+
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
   flex-direction: column;
+
   margin-bottom: 5rem;
 }
 
@@ -54,20 +80,30 @@
 }
 
 .form__submit {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
+  color: #fff;
+
   background: #ff4655;
-  z-index: 1;
   width: 15rem;
   height: 4rem;
-  color: #fff;
+
+  -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
   padding: 1rem 2.5rem;
-  font-family: "Montserrat", sans-serif;
   cursor: pointer;
+
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+
   position: relative;
+  z-index: 1;
   display: inline-block;
+
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   border: none;
@@ -83,112 +119,198 @@
   right: 0;
   z-index: -1;
   background-color: #1f2326;
+
+  -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
+
+  -webkit-box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
     7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .form__submit:hover {
   color: #fff;
 }
+
 .form__submit:hover:after {
   left: 0;
   width: 100%;
 }
+
 .form__submit:active {
   top: 2px;
 }
 
 .news {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
+
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
 .new {
   background: var(--color-accent);
   width: 60rem;
+
+  -webkit-border-radius: 1rem;
   border-radius: 1rem;
+
   padding: 2rem;
-  display: flex;
-  align-items: center;
-  color: var(--font-color-2);
-  transition: all 0.3s linear;
   margin: 1rem;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  color: var(--font-color-2);
+
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+
+  -webkit-animation: appearance 1s ease;
   animation: appearance 1s ease;
 }
 
 .news__date {
-  margin-bottom: 1.5rem;
   font-size: 1.6rem;
   color: var(--font-color-2);
+  margin-bottom: 1.5rem;
 }
 
 .news__title {
   font-size: 1.7rem;
   font-weight: 700;
-  max-width: 20rem;
-  margin-bottom: 1rem;
   text-transform: uppercase;
   color: var(--font-color-2);
+
+  max-width: 20rem;
+  margin-bottom: 1rem;
 }
 
 .news__content {
-  max-width: 20rem;
   font-size: 1.4rem;
-  margin-bottom: 1.5rem;
   color: var(--color-secondary);
+  max-width: 20rem;
+  margin-bottom: 1.5rem;
 }
 
 .news__img {
   width: 32rem;
   height: 18rem;
-  margin-right: 3rem;
+
+  -webkit-border-radius: 0.5rem;
   border-radius: 0.5rem;
+
+  margin-right: 3rem;
 }
 
 .news__link {
   color: var(--color-primary);
   font-size: 1.2rem;
-  text-transform: uppercase;
-  display: flex;
   font-weight: 600;
+  text-transform: uppercase;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
 }
+
 .news__link svg {
   height: 2rem;
   width: 2rem;
-  margin-left: 1rem;
+
+  -webkit-transition: -webkit-transform 0.3s ease;
+  transition: -webkit-transform 0.3s ease;
+
+  -o-transition: transform 0.3s ease;
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+
+  margin-left: 1rem;
 }
 
 .news__link:hover svg {
+  -webkit-transform: translateX(5px);
+  -ms-transform: translateX(5px);
   transform: translateX(5px);
 }
 
-@keyframes appearance {
+@-webkit-keyframes appearance {
   0% {
     opacity: 0;
+    -webkit-transform: translateX(30rem);
     transform: translateX(30rem);
   }
 
   100% {
     opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(30rem);
+    transform: translateX(30rem);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
 
 @media only screen and (max-width: 1079px) {
   .container {
+    -webkit-transform: translateY(12rem);
+    -ms-transform: translateY(12rem);
     transform: translateY(12rem);
   }
 }
 
 @media only screen and (max-width: 532px) {
   .new {
-    flex-direction: column;
     width: 35.5rem;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .news__img {
