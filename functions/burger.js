@@ -14,7 +14,7 @@ burgerMenu.addEventListener("click", () => {
     body.style.backgroundImage = "initial";
     bgImgOnBurgerActive = false;
   } else {
-    body.style.backgroundImage = "url('../../assets/main/characters_bg.png')";
+    body.style.backgroundImage = "url('../../assets/main/characters_bg.webp')";
     bgImgOnBurgerActive = true;
   }
 });
